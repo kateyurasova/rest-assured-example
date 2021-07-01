@@ -17,7 +17,7 @@ public class TestBase {
 
             //Rest Assured config
             RestAssured.baseURI = props.getProperty("api.uri");
-            RestAssured.port = Integer.valueOf(props.getProperty("api.port"));
+            //RestAssured.port = Integer.valueOf(props.getProperty("api.port"));
         } catch (IOException ex) {
             ex.printStackTrace();
         }
